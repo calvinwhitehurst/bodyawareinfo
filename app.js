@@ -47,6 +47,7 @@ var queries = require("./routes/custom_modules/queries.js");
 var passwordreset = require("./routes/passwordreset.js");
 var manufacturing = require("./routes/manufacturing.js");
 
+//this is some test comments to see if it shows up in git
 const limit = rateLimit({
   max: 30, // max requests
   windowMs: 60 * 60 * 1000, // 1 Hour
